@@ -1,0 +1,200 @@
+@charset "UTF-8";
+.clearfix::after{
+  content:"";
+  clear:both;
+  display:block;
+}
+.inner{ 
+  margin: 0 auto;
+  width: 1100px;
+  } 
+.header{
+  background-color: #fff;
+  width: 100%;
+  z-index:99;
+  position:fixed;
+}
+.header-inner{
+  padding: 15px 0 15px;
+}
+.header-inner__icon{
+  color: #c0c0c0;
+  float: left;
+  font-size: 40px;
+}
+.header-inner__btn{
+  background-color: #74cfae;
+  float: right;
+}
+.header-inner__btn__text{
+  font-size: 12px;
+  padding: 14px 12px;
+  color: #f2f2f2;
+  display: block;
+  text-decoration: none;
+}
+.theme{
+  background-color: #f2f2f2;
+}
+.theme-inner{
+  width: 100%;
+  padding: 250px 0;
+}
+.theme-inner__top{
+  font-size: 90px;
+  font-weight: 700px;
+  font-family:'Loto';
+  margin-bottom: 20px;
+  color: #74cfae;
+  text-align: center;
+}
+.theme-inner__bottom{
+  font-size: 30px;
+  color: #c0c0c0;
+  text-align: center;
+}
+.do{
+  background-color: #74cfae;
+  width: 100%;
+}
+.do-inner{
+  padding: 50px 0 0;
+}
+.do-inner__photo{
+  float: left;
+  text-align: center;
+}
+.do-inner__main{
+  float: right;
+  text-align: center;
+  color: #fff;
+}
+.do-inner__main__top{
+  font-size: 24px;
+}
+.do-inner__main__bottom{
+  font-size:20px;
+  margin-top:35px;
+  line-height:35px;
+}
+.works{
+  background-color:#f2f2f2;
+  width:100%;
+}
+.works-inner{
+  color:#333;
+  padding:60px 0 70px;
+  text-align:center;
+}
+.works-inner__main_title{
+  font-size:24px;
+  text-align:center;
+}
+.works-inner__images{
+  box-sizing:border-box;
+  margin:40px 0 90px;
+  font-size: 0;
+}
+.works-inner__image {
+  display: inline-block;
+  margin-left: 100px;
+}
+.image-link{
+  opacity:0.7;
+  transition: all .3s;
+}
+.image-link:hover{
+  opacity:1;
+}
+.works-inner__image:first-child,.works-inner__image:nth-of-type(4){
+  margin-left:0;
+}
+.works-inner__image:nth-child(n+4){
+  margin-top:80px;
+}
+
+.works-inner__bottom_content{
+  text-align:center;
+}
+.works-inner__bottom_text{
+  display:inline-block;
+  font-size:20px;
+  float:left;
+  line-height: 30px;
+  margin:0 90px 0;
+  width:655px;
+  word-break:break-all;
+}
+.works-inner__bottom_btn{
+  background-color:#74cfae;
+  float:left;
+}
+.works-inner__bottom_btn-text{
+  color:#fff;
+  display:block;
+  font-size:12px;
+  padding:14px 20px;
+  text-decoration: none;
+  transition:all .3s;
+}
+.works-inner__bottom_btn-text:hover {
+  color:#333;
+}
+.skills{
+  background-color: #4e4e4e;
+  width: 100%;
+}
+.skills-inner{
+  color: #f2f2f2;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.skills-inner__main{
+  font-size: 24px;
+  font-family:'Raleway';
+  padding-bottom: 40px;
+  text-align: center;
+}
+.skills-inner__side{
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 180px;
+}
+.skills-inner__side:last-child{
+  margin-right: 0;
+}
+.sns{ 
+  background-color: #f2f2f2;
+  width: 100%;
+}
+.sns-inner{
+  padding: 200px 0;
+  text-align: center;
+}
+.sns-inner__btn{
+  display: inline-block;
+  font-size: 40px;
+}
+.sns-inner__btn__icon:hover {
+  background-color: #fff;
+}
+.sns-inner__btn__icon{
+  color: #74cfae;
+  text-decoration: none;
+  width: 185px;
+  transition: .3s;
+  padding: 20px 0;
+  display: inline-block;
+}
+.footer{
+  background-color: #74cfae;
+  width: 100%;
+}
+.footer-inner{
+  padding-top: 20px;
+  padding-bottom: 25px;
+  text-align: right;
+  font-size: 12px;
+  color: #fff;
+}
